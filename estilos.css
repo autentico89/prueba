@@ -1,3 +1,39 @@
-body{
-    background-color: antiquewhite;
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
+.noti{
+
+}
+    .header{
+        background: #000;
+    }
+        .menu{
+            background: #2d4059;
+        }
+            .logo{
+                background: #ea5455;
+            }
+            .nav{
+                background: #ea5455;
+            }
+            .social{
+                background: #ea5455;
+            }
+        .texto{
+            background: #f07b3f;
+        }    
+    .section{
+        background: #000;
+    }
+        .articulos{
+            background: #4e4e6a;
+        }
+            .article{
+                background: #1f6cb0;
+            }
+            .navegacion
+    .footer{
+        background: #000;
+    }    
