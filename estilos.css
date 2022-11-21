@@ -12,6 +12,9 @@ a{
     flex-flow: column nowrap;
 
 }
+.margen-interno{
+    padding: 0 50px;
+}
     .header{
         display: flex;
         flex-flow: column nowrap;
@@ -48,10 +51,15 @@ a{
                 color: #000;
             }
         .texto{
-            background: #6e72e4;
+            background: #7b7eee;
         }
             h1{
-                background: #ffea85;
+                font-family: "Lora", serif;
+                font-size: 21px;
+                color: #000;
+                font-weight: 300;
+                text-align: center;
+                line-height: 1.6;
             }    
     .section{
         background: rgb(140, 183, 244);
@@ -67,26 +75,56 @@ a{
             .article{
                 background: #ffffff;
                 flex: 1 1 40%;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin:10px 10px 0 0px;
+                flex: 1 1 45%;
+            }
+            .article img{
+                width: 100%;
+
+            }
+            h3{
+                color: #fff;
+                font-size: 13px;
+                padding: 10px;
             }
             .navegacion{
                 background: #70a3c4;
                 flex: 1 1 100%;
             }
         .aside{
-            background: #f73f52;
+            background: #fbf9f9;
             flex: 1 1 auto;
+        }
+        h4{
+            background-color: rgb(48, 145, 242);
+            color: #fff;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .aside img{
+            width: 100%;
         }
             .publicidad{
                 background: #ffea85;
             }    
     .footer{
-        background: rgb(248, 245, 245);
+        background: rgb(37, 119, 240);
         display: flex;
         justify-content: center;
     }
         .pie{
-            background: #70a3c4;
+            background: #007cf7;
             width: 300px;
+        
+        }
+        .pies{ 
+            background-color: rgb(48, 145, 242);
+            color: rgb(20, 19, 19);
+            padding: 10px;
+            text-transform: uppercase;
+
         }
         
 @media all and (max-width: 900px){
