@@ -4,7 +4,9 @@
     padding: 10px;
     box-sizing: border-box;
 }
-.Noticion{
+.op{
+    display: flex;
+    flex-flow: column nowrap;
 
 }
     .header{
