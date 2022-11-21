@@ -23,17 +23,17 @@
             .logo{
                 background: #ea5455;
                 flex: 1 1 auto;
-                height: 50px;
+                
             }
             .nav{
                 background: #ea5455;
-                flex: 5 1 auto;
-                height: 50px;
+                flex: 3 1 auto;
+                
             }
             .social{
                 background: #ea5455;
                 flex: 1 1 auto;
-                height: 50px;
+                
             }
         .texto{
             background: #f07b3f;
@@ -77,7 +77,7 @@
             width: 300px;
         }
         
-@media all and (max-width: 2000px){
+@media all and (max-width: 900px){
     .section{
         flex-direction: column;
     }
@@ -90,7 +90,7 @@
         justify-content: center;
     }
 }
-@media all and (max-width: 1000px){
+@media all and (max-width: 900px){
     .articulos{
         flex-direction: column;
     }
