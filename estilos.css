@@ -1,8 +1,11 @@
 
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
+}
+a{
+    text-decoration: none;
 }
 .op{
     display: flex;
@@ -14,26 +17,35 @@
         flex-flow: column nowrap;
     }
         .menu{
-            background: #2d4059;
+            background: rgba(0,0,0,.1);
             display: flex;
             flex-flow: row nowrap;
-            height: 100px;
+            height: auto;
             align-items: center;
         }
             .logo{
-                background: #ea5455;
                 flex: 1 1 auto;
-                
             }
+            .logo a{
+                color: rgb(42, 31, 196);
+                font-size: 30px;
+            }
+            .logo a:hover{
+                color:#000
+            }
+
             .nav{
-                background: #ea5455;
-                flex: 3 1 auto;
-                
+                flex: 3 1 auto; 
+            }
+            .nav a:hover{
+                color: #000;
             }
             .social{
-                background: #ea5455;
-                flex: 1 1 auto;
-                
+                color: #2a10ad;
+                flex:  1 auto;  
+            }
+            .social a:hover{
+                color: #000;
             }
         .texto{
             background: #f07b3f;
