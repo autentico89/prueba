@@ -1,9 +1,10 @@
+
 *{
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
 }
-.noti{
+.Noticion{
 
 }
     .header{
@@ -33,7 +34,18 @@
             .article{
                 background: #1f6cb0;
             }
-            .navegacion
+            .navegacion{
+                background: #70a3c4;
+            }
+        .aside{
+            background: #f73f52;
+        }
+            .publicidad{
+                background: #ffea85;
+            }    
     .footer{
         background: #000;
-    }    
+    }
+        .pie{
+            background: #70a3c4;
+        }    
